@@ -1,238 +1,940 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="ge">
 <head>
+    <meta charset="utf-8"/>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="admove" content="advertisement, easy money, car, driver, advertiser, marketing">
+    <meta name="advertisement" content="money, cars, advertisement, ad, outdoor, pay less">
+
+    <!-- SITE TITLE-->
     <title>AdMove</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/icons/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- WEB FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="css/arciform.css">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <!-- FONT ICONS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
 
-<body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">AdMove</a>
-            </div>
+<!-- Pre loader-->
+<div class="preloader">
+    <div class="status">
+        <h1 class="preloader-text" data-content="AdMove">AdMove</h1>
+    </div>
+</div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">ჩვენს შესახებ</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">სერვისები</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">პორტფოლიო</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">კონტაქტი</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="http://advertiser.admove.ge">პანელი</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">სწორად გაკეთებული რეკლამა</h1>
-                <hr>
-                <p>სრულიად ახალი აუთდორ სერვისი, პლატფორმა რომელიც აერთიანებს ავტომობილის მძღოლების და კომპანიების საერთო ინტერესებს.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">გაიგეთ მეტი</a>
-            </div>
-        </div>
-    </header>
+<div class="wrapper">
 
-    <section class="bg-primary" id="about">
+    <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">ჩვენ გვაქვს ის რაც თქვენ გჭირდებათ!</h2>
-                    <hr class="light">
-                    <p class="text-faded">ედმუვი არის უმარტივსი გზა გამოიმუშაო დამატებითი თანხა ავტომობოლის მართვის  პროცესში, ჩვენ გთავაზობთ   პლატფორმას რომელიც გაკავშირებთ რეკლამის განმთავსებლებთან, თუ თქვენ  გააკრავთ  საკუთრ ავტომობილზე გარე რეკლამას, ავტომობილით გავლილი ყოველი თქვენი კილომეტრი მოგცევთ დამატებით შემოსავალს.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">დაიწყეთ ეხლავე!</a>
-                </div>
-            </div>
-        </div>
-    </section>
+                <nav class="navbar">
+                    <div class="navbar-header">
 
-    <section id="services">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav"
+                                aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a class="logo navbar-brand" href="#intro">AdMove</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="nav">
+                        <ul class="nav navbar-nav" id="scroll-spy">
+                            <li>
+                                <a href="#download">გადმოწერა</a>
+                            </li>
+                            <li>
+                                <a href="#about">ჩვენს შესახებ</a>
+                            </li>
+                            <li>
+                                <a href="#screenshots">სურათები</a>
+                            </li>
+                            <li>
+                                <a href="#advantages">უპირატესობები</a>
+                            </li>
+                            <li>
+                                <a href="#testimonials">რეკომენდაციები</a>
+                            </li>
+                            <li>
+                                <a href="#contact">კონტაქტი</a>
+                            </li>
+                        </ul><!-- /.nav navbar-nav -->
+                    </div><!-- /#nav.collapse navbar-collapse -->
+                </nav><!-- /.navbar -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.header -->
+
+
+    <section class="section section-intro" id="intro">
+        <div class="slider slider-intro">
+            <ul>
+                <li class="slide" data-fs-container>
+                    <div class="slide-background">
+                        <img src="images/app/bg-intro1.jpg" alt="bg-intro" width="1920" height="1095" data-fs-image>
+                    </div><!-- /.slide-background -->
+
+                    <div class="slide-image">
+                        <img src="images/app/img-intro1.png" alt="img-intro" width="764" height="702">
+                    </div><!-- /.slide-image -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="slide-body col-lg-7 col-lg-offset-5 col-md-7 col-md-offset-5 col-sm-8 col-sm-offset-4 col-xs-10 col-xs-offset-1">
+                                <h1 class="slide-title"><span style="color:#009688">გარე</span>კლამდი <br/> თბილისში</h1><!-- /.slide-title -->
+
+                                <p>დაგეგმე, შექმენი, აკონტროლე და გაზომე მარკენტიგული კომპანია</p>
+                            </div><!-- /.slide-body -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                </li><!-- /.slide -->
+
+                <li class="slide" data-fs-container>
+                    <div class="slide-background">
+                        <img src="images/app/bg-intro2.jpg" alt="bg-intro" width="1920" height="1095" data-fs-image>
+                    </div><!-- /.slide-background -->
+
+                    <div class="slide-image">
+                        <img src="images/app/img-intro2.png" alt="img-intro" width="764" height="702">
+                    </div><!-- /.slide-image -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="slide-body col-lg-7 col-lg-offset-5 col-md-7 col-md-offset-5 col-sm-8 col-sm-offset-4 col-xs-10 col-xs-offset-1">
+                                <h1 class="slide-title">სწორად <br/> გაკეთებული რეკლამა</h1><!-- /.slide-title -->
+
+                                <p>სრულიად ახალი აუთდორ სერვისი, პლატფორმა რომელიც აკავშირებს ავტომობილის
+                                    მძღოლების და კომპანიების საერთო ინტერესებს. </p>
+                            </div><!-- /.slide-body -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                </li><!-- /.slide -->
+            </ul>
+        </div><!-- /.slider slider-intro -->
+    </section><!-- /.section section-intro -->
+
+
+    <section class="section section-download" id="download">
+        <div class="section-images">
+            <img src="images/app/img-phone1.png" alt="" width="371" height="757" class="phone slide-from-bottom">
+
+            <img src="images/app/img-tablet.png" alt="" width="1371" height="906" class="tablet slide-from-right">
+        </div><!-- /.section-images -->
+
+        <div class="section-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-7 col-sm-8 col-xs-12 slide-from-left">
+                        <h2 class="section-title">
+                            მიიღე ფული
+                            <strong>
+                                ჩვენი დახმარებით
+                            </strong>
+                        </h2><!-- /.section-title -->
+
+                        <p> AdMove-ი არის უმარტივსი გზა მიიღოთ დამატებითი შემოსავალი ავტომობოლის მართვის პროცესში,
+                            ჩვენ გთავაზობთ პლატფორმას რომელიც დაგაკავშირებთ რეკლამის განმთავსებლებთან და თუ თქვენ განათავსებთ
+                            საკუთრ ავტომობილზე რეკლამას, ყოველი გავლილი კილომეტრით შეძლებთ გამოიმუშაოთ დამატებითი შემოსავალი.</p>
+
+                        <div class="cta">
+                            <a class="btn" disabled="">
+                                <i class="fa fa-apple"></i>
+
+                                <span>
+									App Store
+								</span>
+                            </a>
+
+                            <!--<a href="https://play.google.com/apps/testing/com.admove/join" class="btn">-->
+                            <a href="https://play.google.com/store/apps/details?id=com.admove&ah=70kMTWh2o1a_0tqEDCBttRcMOsM"
+                               target="_blank" class="btn">
+                                <i class="ico-googleplay"></i>
+
+                                <span>
+									Google Play
+								</span>
+                            </a>
+                        </div><!-- /.cta -->
+
+                        <p class="small-print">გარე სარეკლამო პლათფორმა, რომელშიც თავმოყრილია ციფრული მარკეტინგის დადებით თვისებები.</p>
+                        <!-- /.small-print -->
+                    </div><!-- /.col-lg-5 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.section-body -->
+    </section><!-- /.section section-download -->
+
+
+    <section class="section section-about" id="about">
+        <div class="container container-gray half-height">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 slide-from-left">
+                    <div class="slider slider-about">
+                        <ul>
+                            <li class="slide">
+                                <h3>There are many variations <br> of passages of Lorem Ipsum available</h3>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true</p>
+                            </li><!-- /.slide -->
+                            <li class="slide">
+                                <h3>There are many variations <br> of passages of Lorem Ipsum available</h3>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true</p>
+                            </li><!-- /.slide -->
+                            <li class="slide">
+                                <h3>There are many variations <br> of passages of Lorem Ipsum available</h3>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true</p>
+                            </li><!-- /.slide -->
+                        </ul>
+                    </div><!-- /.slider slider-about -->
+                </div><!-- /.col-lg-5 col-md-5 col-sm-5 col-xs-12 -->
+
+                <div class="col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2 col-xs-12 slide-from-right">
+                    <div class="box-about">
+                        <h3>
+                            <i class="ico-interface"></i>
+
+                            Friendly interface
+                        </h3>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour</p>
+                    </div><!-- /.box-about -->
+                </div><!-- /.col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2 col-xs-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+
+        <div class="container container-pink half-height">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 slide-from-left">
+                    <div class="box-about">
+                        <h3>
+                            <i class="ico-cloud"></i>
+
+                            All your data <br> in cloud
+                        </h3>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour</p>
+                    </div><!-- /.box-about -->
+                </div><!-- /.col-lg-5 col-md-5 col-sm-5 col-xs-12 -->
+
+                <div class="col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2 col-xs-12 slide-from-right">
+                    <div class="slider slider-about">
+                        <ul>
+                            <li class="slide">
+                                <h3>There are many variations <br> of passages of Lorem Ipsum available</h3>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true</p>
+                            </li><!-- /.slide -->
+                            <li class="slide">
+                                <h3>There are many variations <br> of passages of Lorem Ipsum available</h3>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true</p>
+                            </li><!-- /.slide -->
+                            <li class="slide">
+                                <h3>There are many variations <br> of passages of Lorem Ipsum available</h3>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true</p>
+                            </li><!-- /.slide -->
+                        </ul>
+                    </div><!-- /.slider slider-about -->
+                </div><!-- /.col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2 col-xs-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container container-pink -->
+    </section><!-- /.section section-about -->
+
+
+    <section class="section section-screenshots" id="screenshots">
+        <header class="section-head slide-from-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+                        <h4>Screenshots</h4>
+
+                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+                            making this the first true</p>
+                    </div>
+                    <!-- /.col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </header><!-- /.section-head -->
+
+        <div class="section-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tabs">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="active" role="presentation">
+                                    <a href="#tab-general" aria-controls="tab-general" role="tab" data-toggle="tab">general</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#tab-photo-editor" aria-controls="tab-photo-editor" role="tab"
+                                       data-toggle="tab">photo editor</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#tab-features" aria-controls="tab-features" role="tab" data-toggle="tab">features</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#tab-other" aria-controls="tab-other" role="tab"
+                                       data-toggle="tab">other</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane active" role="tabpanel" id="tab-general">
+                                    <div class="carousel">
+                                        <ul class="slides">
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li class="last">
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                        </ul><!-- /.slides -->
+                                    </div><!-- /.carousel -->
+                                </div><!-- /#tab-general.tab-pane -->
+                                <div class="tab-pane" role="tabpanel" id="tab-photo-editor">
+                                    <div class="carousel">
+                                        <ul class="slides">
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                        </ul><!-- /.slides -->
+                                    </div><!-- /.carousel -->
+                                </div><!-- /#tab-photo-editor.tab-pane -->
+                                <div class="tab-pane" role="tabpanel" id="tab-features">
+                                    <div class="carousel">
+                                        <ul class="slides">
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot1.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                        </ul><!-- /.slides -->
+                                    </div><!-- /.carousel -->
+                                </div><!-- /#tab-features.tab-pane -->
+                                <div class="tab-pane" role="tabpanel" id="tab-other">
+                                    <div class="carousel">
+                                        <ul class="slides">
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                            <li>
+                                                <img src="images/temp/screenshot.jpg" alt="" width="306" height="414">
+                                            </li>
+                                        </ul><!-- /.slides -->
+                                    </div><!-- /.carousel -->
+                                </div><!-- /#tab-other.tab-pane -->
+                            </div><!-- /.tab-content -->
+                        </div><!-- /.tabs -->
+                    </div><!-- /.col-lg-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.section-body -->
+    </section><!-- /.section section-screenshots -->
+
+
+    <section class="section section-download section-download-alt" id="download-alt">
+        <div class="section-body">
+            <div class="container">
+                <div class="row slide-from-left">
+                    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+                        <h1>Whole World in Your Pocket</h1>
+
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. </p>
+
+                        <div class="cta">
+                            <a href="#" class="btn">
+                                <i class="fa fa-apple"></i>
+
+                                <span>
+									App Store
+								</span>
+                            </a>
+
+                            <a href="#" class="btn">
+                                <i class="ico-googleplay"></i>
+
+                                <span>
+									Google Play
+								</span>
+                            </a>
+                        </div><!-- /.cta -->
+                    </div><!-- /.col-lg-6 col-md-8 col-sm-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.section-body -->
+    </section><!-- /.section section-download section-download-alt -->
+
+
+    <section class="section section-advantages" id="advantages">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">გემსახურებით თქვენ</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
+                <div class="section-image">
+                    <img src="images/temp/img-phone3.png" alt="" width="568" height="1244" class="slide-from-bottom">
+                </div><!-- /.section-image -->
+
+                <header class="section-head col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                    <h3 class="slide-from-left">What<br>Makes AdMove<br>so Great</h3>
+
+                    <p class="slide-from-right">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or randomised words which
+                        don't look even slightly believable. ttIf you are going to use a passage of Lorem Ipsum, you
+                        need to be sure there isn't anything.</p>
+                </header><!-- /.section-head col-lg-7 col-md-7 col-sm-8 col-xs-12 -->
+
+                <div class="section-body col-lg-7 col-md-7 col-sm-8 col-xs-12">
+                    <div class="counters slide-from-left">
+                        <ul>
+                            <li class="counter">
+                                <strong>
+                                    <span data-number="35">0</span>
+                                </strong>
+
+                                awards winning and nominations
+                            </li><!-- /.counter -->
+                            <li class="counter">
+                                <strong>
+                                    <span data-number="250">0</span>m
+                                </strong>
+
+                                downloads for less than one year
+                            </li><!-- /.counter -->
+                            <li class="counter">
+                                <strong>
+                                    <span data-number="45">0</span>
+                                </strong>
+
+                                development team members
+                            </li><!-- /.counter -->
+                            <li class="counter">
+                                <strong>
+                                    <span data-number="197">0</span>th
+                                </strong>
+
+                                place in top apps
+                            </li><!-- /.counter -->
+                            <li class="counter">
+                                <strong>
+                                    <span data-number="60">0</span>
+                                </strong>
+
+                                countries worldwide userbase
+                            </li><!-- /.counter -->
+                            <li class="counter">
+                                <strong>
+                                    <span data-number="15">0</span>
+                                </strong>
+
+                                years of experience
+                            </li><!-- /.counter -->
+                        </ul>
+                    </div><!-- /.counters -->
+                </div><!-- /.section-body col-lg-7 col-md-7 col-sm-8 col-xs-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.section section-advantages -->
+
+
+    <section class="section section-gallery">
+        <header class="section-head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 slide-from-top">
+                        <h4>What You Can do With AdMove...</h4>
+
+                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined <br> chunks as
+                            necessary, making this the first true</p>
+                    </div><!-- /.col-lg-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </header><!-- /.section-head -->
+
+        <div class="section-body">
+            <div class="container">
+                <div class="row">
+                    <div class="gallery col-lg-12">
+                        <ul>
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery1.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery1.jpg" alt="" width="285" height="366">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery3.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery3.jpg" alt="" width="285" height="225">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery5.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery5.jpg" alt="" width="285" height="366">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery7.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery7.jpg" alt="" width="285" height="225">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery4.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery4.jpg" alt="" width="285" height="366">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery8.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery8.jpg" alt="" width="285" height="366">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery2.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery2.jpg" alt="" width="285" height="225">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery6.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery6.jpg" alt="" width="285" height="225">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery9.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery9.jpg" alt="" width="580" height="285">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                            <li class="gallery-item">
+                                <a href="images/temp/th-gallery10.jpg" class="link-photo">
+                                    <img src="images/temp/th-gallery10.jpg" alt="" width="580" height="285">
+                                </a>
+                            </li><!-- /.gallery-item -->
+                        </ul>
+                    </div><!-- /.gallery -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.section-body -->
+    </section><!-- /.section section-gallery -->
+
+
+    <section class="section section-testimonials slide-from-right" id="testimonials">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>ბრწყინვალე</h3>
-                        <p class="text-muted">საშვალება დამატებით ვალდებულებებისა და დროის გარეშე გამოიმუშაო თნხა.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>სრულყოფილი</h3>
-                        <p class="text-muted">პლათფორმა გაჩვენებთ და ჩვენ გიხდით ზუსტად იმდენს რამდენიც გაიარეთ ავტომობილით.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>თანამედროვე</h3>
-                        <p class="text-muted">აუთდორ სივრცეში გადმოტანილი დიჯითალ მარკეტინგი.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>მზრუნველი</h3>
-                        <p class="text-muted">მუდმივი დამატებითი თანხა, მუდმივი რეპორტინგი, მუდმივად ახალი სერვისი.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                <header class="section-head col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                    <h3>
+                        <i class="ico-bubble"></i>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    დემონსტრაცია
-                                </div>
-                                <div class="project-name">
-                                    ტექნო პარკი
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    დემონსტრაცია
-                                </div>
-                                <div class="project-name">
-                                    ტექნო პარკი
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    დემონსტრაცია
-                                </div>
-                                <div class="project-name">
-                                    ტექნო პარკი
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+                        What our users are saying...
+                    </h3>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>დარეგისტრირდით უფასოდ!</h2>
-                <a href="https://play.google.com/apps/testing/com.admove/join" target="_blank" class="btn btn-default btn-xl sr-button">გადმოწერეთ</a>
-            </div>
-        </div>
-    </aside>
+                    <div class="slider-nav">
+                        <a href="#" class="link-prev">
+							<span>
+								‹
+							</span>
+                            previous
+                        </a>
 
-    <section id="contact">
+                        <span class="separator"></span>
+
+                        <a href="#" class="link-next">
+                            next
+                            <span>
+								›
+							</span>
+                        </a>
+                    </div><!-- /.slider-nav -->
+                </header><!-- /.section-head col-lg-3 col-md-4 col-sm-6 col-xs-12 -->
+
+                <div class="section-body col-lg-9 col-md-8 col-sm-8 col-xs-12">
+                    <div class="slider slider-testimonials">
+                        <ul>
+                            <li class="slide">
+                                <h5>
+                                    Sandra Peterson
+                                    <small>
+                                        United Kingdom
+                                    </small>
+                                </h5>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true generator on the Internet. It uses a
+                                    dictionary of over 200 Latin words, combined with </p>
+                            </li><!-- /.slide -->
+                            <li class="slide">
+                                <h5>
+                                    Sandra Peterson
+                                    <small>
+                                        Australia
+                                    </small>
+                                </h5>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true generator on the Internet. It uses a
+                                    dictionary of over 200 Latin words, combined with a handful of model sentence
+                                    structures, to generate Lorem Ipsum which looks reasonable. </p>
+                            </li><!-- /.slide -->
+                            <li class="slide">
+                                <h5>
+                                    Sandra Peterson
+                                    <small>
+                                        Bulgaria
+                                    </small>
+                                </h5>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true generator on the Internet. It uses a
+                                    dictionary of over 200 Latin words, combined with </p>
+                            </li><!-- /.slide -->
+                            <li class="slide">
+                                <h5>
+                                    Sandra Peterson
+                                    <small>
+                                        United Kingdom
+                                    </small>
+                                </h5>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true generator on the Internet. It uses a
+                                    dictionary of over 200 Latin words, combined with </p>
+                            </li><!-- /.slide -->
+                            <li class="slide">
+                                <h5>
+                                    Sandra Peterson
+                                    <small>
+                                        Australia
+                                    </small>
+                                </h5>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true generator on the Internet. It uses a
+                                    dictionary of over 200 Latin words, combined with a handful of model sentence
+                                    structures, to generate Lorem Ipsum which looks reasonable. </p>
+                            </li><!-- /.slide -->
+                            <li class="slide">
+                                <h5>
+                                    Sandra Peterson
+                                    <small>
+                                        Bulgaria
+                                    </small>
+                                </h5>
+
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                    necessary, making this the first true generator on the Internet. It uses a
+                                    dictionary of over 200 Latin words, combined with </p>
+                            </li><!-- /.slide -->
+                        </ul>
+                    </div><!-- /.slider slider-testimonials -->
+                </div><!-- /.section-body col-lg-9 col-md-8 col-sm-6 col-xs-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.section section-testimonials -->
+
+
+    <section class="section section-contact" id="contact">
+        <header class="section-head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 slide-from-bottom">
+                        <h3>Contact Us</h3>
+
+                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+                            making this the first true</p>
+                    </div><!-- /.col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </header><!-- /.section-head -->
+
+        <div class="section-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2 slide-from-left">
+                        <div class="map" id="map" data-address="Tech Park Georgia, Tbilisi, Georgia"></div>
+                        <!-- /.map -->
+
+                        <div class="cols">
+                            <div class="col-details">
+                                <h6>კონტაქტი</h6>
+
+                                <dl class="contacts">
+                                    <dt>თბილისი</dt>
+                                    <dd>ინოვაციების 7</dd>
+
+                                    <dd class="phone">
+                                        <a href="tel:593-37-36-69">
+                                            593 <span>•</span> 37 <span>•</span> 36 <span>•</span> 69
+                                        </a>
+                                    </dd>
+
+                                    <dd class="email">
+                                        <a href="mailto:info@admove.ge">
+                                            info@admove.ge
+                                        </a>
+                                    </dd><!-- /.email -->
+                                </dl>
+                            </div><!-- /.col-details -->
+
+                            <div class="col-entry">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by injected humour, or randomised words which
+                                    don't look even slightly believable.</p>
+                            </div><!-- /.col-entry -->
+                        </div><!-- /.cols -->
+                    </div><!-- /.col-lg-5 col-md-6 col-sm-12 -->
+
+                    <div class="col-lg-5 col-lg-offset-2 col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2 slide-from-right">
+                        <div class="form form-contact">
+                            <form id="contact-form">
+                                <div class="form-body">
+                                    <div class="form-row">
+                                        <div class="form-controls">
+                                            <input type="text" name="name" class="field" placeholder="your name"
+                                                   id="name">
+
+                                            <label for="name-field">
+                                                <i class="fa fa-user"></i>
+                                            </label>
+                                        </div><!-- /.form-controls -->
+                                    </div><!-- /.form-row -->
+
+                                    <div class="form-row">
+                                        <div class="form-controls">
+                                            <input type="email" name="email" class="field" placeholder="email"
+                                                   id="email">
+
+                                            <label for="email-field">
+                                                <i class="fa fa-send-o"></i>
+                                            </label>
+                                        </div><!-- /.form-controls -->
+                                    </div><!-- /.form-row -->
+
+                                    <div class="form-row">
+                                        <div class="form-controls">
+                                            <textarea id="message" name="message" class="field"
+                                                      placeholder="message..."></textarea>
+                                        </div><!-- /.form-controls -->
+                                    </div><!-- /.form-row -->
+                                </div><!-- /.form-body -->
+
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-xl btn-block">
+                                        send message
+                                        <i class="ico-arrow"></i>
+                                    </button>
+                                </div><!-- /.form-actions -->
+
+                                <!-- IF MAIL SENT SUCCESSFULLY -->
+                                <h4 class="success">
+                                    Your message has been sent successfully.
+                                </h4>
+
+                                <!-- IF MAIL SENDING UNSUCCESSFULL -->
+                                <h4 class="error">
+                                    E-mail must be valid and message must be longer than 1 character.
+                                </h4>
+                            </form>
+                        </div><!-- /.form form-contact -->
+                    </div><!-- /.col-lg-5 col-lg-offset-2 col-md-6 col-sm-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.section-body -->
+    </section><!-- /.section section-contact -->
+
+
+    <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">დაგვიკავშირდით!</h2>
-                    <hr class="primary">
-                    <p>გსურთ ჩვენთან თანამშრომლობა? შესანიშნავია! დაგვირეკეთ ან გამოგვიგზავნეთ იმეილი, ჩვენ კი დაუყოვნებლივ შეგეხმიანებით!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>+995 000 000 000</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:info@admove.ge">info@admove.ge</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+                <div class="socials">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/admove.ge/?fref=ts" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-skype"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.socials -->
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+                <p class="copyright">© 2016 AdMove LLC.</p><!-- /.copyright -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+                <div class="logo-footer"></div><!-- /.logo-footer -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </footer><!-- /.footer -->
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+</div><!-- /.wrapper -->
 
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
 
+<script src="js/vendor/jquery-1.11.3.min.js"></script>
+<script src="js/vendor/detectmobilebrowser.js"></script>
+<script src="js/vendor/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<script src="js/vendor/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/vendor/isotope.pkgd.min.js"></script>
+<script src="js/vendor/packery-mode.pkgd.min.js"></script>
+<script src="js/vendor/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+<script src="js/functions.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAVZ7x4o-r4MsR6A8Tie9w-_KZQSCUby4&amp;callback=initMaps"></script>
 </body>
-
 </html>
