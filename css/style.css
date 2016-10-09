@@ -1530,7 +1530,7 @@ textarea.field {
       transition: opacity 0.25s;
       z-index: 2; }
     .gallery li a:after {
-      content: 'ΓÇ║';
+      content: '›';
       font-size: 35px;
       line-height: 35px;
       position: absolute;
@@ -2018,5 +2018,3 @@ textarea.field {
   .gallery ul {
     width: 1180px;
     margin: 0 -20px; } }
-
-/*# sourceMappingURL=style.css.map */
