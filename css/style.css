@@ -284,7 +284,7 @@ img {
 
 /*  Section Download Alt  */
 .section-download-alt {
-  background: url(../images/temp/bridge.jpg) 50% no-repeat;
+  background: url(../images/app/bridge.jpg) 50% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -327,7 +327,7 @@ img {
   color: #9f9f9f;
   text-align: center; }
   .container-gray .col-lg-5:first-child {
-    background: url(../images/temp/bg-tile-grey.jpg) 50% no-repeat;
+    background: url(../images/app/bg-tile-grey.jpg) 50% no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
@@ -545,7 +545,7 @@ img {
     background: #434343; }
     .section-about:before {
       content: '';
-      background: url(../images/temp/bg-tile-grey.jpg) 50% no-repeat;
+      background: url(../images/app/bg-tile-grey.jpg) 50% no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -ms-background-size: cover;
