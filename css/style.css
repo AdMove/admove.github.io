@@ -163,7 +163,7 @@ img {
 @media only screen and (max-width: 768px) {
     .impresia{
     
-    margin-left:0px !important;
+    margin-left:0px;
 }
     
 }
