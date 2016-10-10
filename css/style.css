@@ -213,7 +213,7 @@ only screen and (min-resolution: 192dpi) {
 
 @media only screen and (min-width: 768px) {
     .logo {
-        height: 76px;
+        height: 60px;
     }
     .logo-footer {
         float: right;
