@@ -856,7 +856,7 @@ only screen and (min-resolution: 192dpi) {
     }
     .container-pink .row .col-lg-5:first-child + .col-lg-5:after {
         content: '';
-        background: url(img-phone2.png) 50% no-repeat;
+        background: url(../img-phone2.png) 50% no-repeat;
         width: 1348px;
         height: 840px;
         position: absolute;
@@ -1671,37 +1671,37 @@ only screen and (min-resolution: 192dpi) {
 }
 
 .ico-play {
-    background: url(ico-play.png) 50% no-repeat;
+    background: url(../ico-play.png) 50% no-repeat;
     width: 20px;
     height: 22px;
 }
 
 .ico-googleplay {
-    background: url(ico-google-play.png) 50% no-repeat;
+    background: url(../ico-google-play.png) 50% no-repeat;
     width: 27px;
     height: 30px;
 }
 
 .ico-interface {
-    background: url(ico-interface.png) 50% no-repeat;
+    background: url(../ico-interface.png) 50% no-repeat;
     width: 67px;
     height: 65px;
 }
 
 .ico-cloud {
-    background: url(ico-cloud.png) 50% no-repeat;
+    background: url(../ico-cloud.png) 50% no-repeat;
     width: 71px;
     height: 64px;
 }
 
 .ico-bubble {
-    background: url(ico-bubble.png) 50% no-repeat;
+    background: url(../ico-bubble.png) 50% no-repeat;
     width: 55px;
     height: 52px;
 }
 
 .ico-arrow {
-    background: url(ico-arrow.png) 50% no-repeat;
+    background: url(../ico-arrow.png) 50% no-repeat;
     width: 7px;
     height: 11px;
 }
@@ -1864,7 +1864,7 @@ only screen and (min-resolution: 192dpi) {
     width: 23px;
     height: 22px;
     border-radius: 3px;
-    background: #2e2e2e url(checkbox.png) 3px 24px no-repeat;
+    background: #2e2e2e url(../checkbox.png) 3px 24px no-repeat;
     position: absolute;
     top: 4px;
     left: 0;
@@ -2429,7 +2429,7 @@ textarea.field {
     }
     .carousel:after {
         content: '';
-        background: url(bg-phone.png) 50% no-repeat;
+        background: url(../bg-phone.png) 50% no-repeat;
         width: 356px;
         height: 723px;
         position: absolute;
