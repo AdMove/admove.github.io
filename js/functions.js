@@ -422,7 +422,7 @@
                     } else {
                         console.log("Geocoding unsuccessful. Reason: " + status);
 
-                        latLng = new google.maps.LatLng(48.104786, 16.049149);
+                        latLng = new google.maps.LatLng(41.6870268, 44.7694292);
                     }
 
                     var styledMap = new google.maps.StyledMapType(mapStyle, {name: 'Styled Map'});
