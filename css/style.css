@@ -1991,7 +1991,7 @@ textarea.field {
 /*  Carousel  */
 
 .carousel {
-    background: url(../images/backgrounds/bg-phone.png) 50% 0 no-repeat;
+    background: url(../bg-phone.png) 50% 0 no-repeat;
     width: 290px;
     height: 415px;
     padding: 74px 19px 0;
