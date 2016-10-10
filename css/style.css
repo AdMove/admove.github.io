@@ -553,7 +553,7 @@ only screen and (min-resolution: 192dpi) {
 /*  Section Advantages  */
 
 .section-advantages {
-    background: #1E88E5 url(bg-figarofa.png) 50% 100% no-repeat;
+    background: #1E88E5 url(../bg-figarofa.png) 50% 100% no-repeat;
     position: relative;
     -webkit-background-size: 150% auto;
     -moz-background-size: 150% auto;
