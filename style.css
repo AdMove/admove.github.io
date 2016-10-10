@@ -425,7 +425,7 @@ only screen and (min-resolution: 192dpi) {
 }*/
 
 .section-download-alt {
-    background: url(tbl-metro.png) 50% no-repeat;
+    background: url(../tbl-metro.png) 50% no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
