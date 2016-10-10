@@ -794,7 +794,7 @@ only screen and (min-resolution: 192dpi) {
     }
     .section-about:before {
         content: '';
-        background: url(bg-tile-grey1.jpg) 50% no-repeat;
+        background: url(../bg-tile-grey1.jpg) 50% no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -ms-background-size: cover;
