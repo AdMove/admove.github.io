@@ -20,10 +20,10 @@
         $(".preloader-text").addClass('pre-animate');
 
         // will first fade out the loading animation
-        $(".status").delay(2000).fadeOut();
+        $(".status").delay(1500).fadeOut();
 
         // will fade out the whole DIV that covers the website.
-        $(".preloader").delay(2500).fadeOut("slow");
+        $(".preloader").delay(2000).fadeOut("fast");
     });
 
 
