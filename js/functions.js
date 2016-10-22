@@ -301,7 +301,7 @@
     $(window).on('scroll', function () {
         var y_scroll_pos = window.pageYOffset;
         var scroll_pos_test = 4200; // set to whatever you want it to be
-        console.log(y_scroll_pos);
+       
         
         if (y_scroll_pos > scroll_pos_test) {
             tvla();
