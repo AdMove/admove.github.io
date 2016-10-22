@@ -121,11 +121,11 @@ img {
 .preloader .status .preloader-text.pre-animate:before {
     width: 100%;
     opacity: 0;
-    -webkit-transition: width 5.7s linear, opacity 0.7s 5.7s;
-    -moz-transition: width 5.7s linear, opacity 0.7s 5.7s;
-    -ms-transition: width 5.7s linear, opacity 0.7s 5.7s;
-    -o-transition: width 5.7s linear, opacity 0.7s 5.7s;
-    transition: width 5.7s linear, opacity 0.7s 5.7s;
+    -webkit-transition: width 3.7s linear, opacity 0.7s 3.7s;
+    -moz-transition: width 3.7s linear, opacity 0.7s 3.7s;
+    -ms-transition: width 3.7s linear, opacity 0.7s 3.7s;
+    -o-transition: width 3.7s linear, opacity 0.7s 3.7s;
+    transition: width 3.7s linear, opacity 0.7s 3.7s;
 }
 
 
